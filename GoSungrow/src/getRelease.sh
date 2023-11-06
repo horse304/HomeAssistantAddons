@@ -42,11 +42,11 @@ esac
 OS="$(uname -s)"
 case "${OS}" in
 	'Darwin'|'darwin')
-		OS="darwin"
+		OS="Darwin"
 		;;
 
 	'Linux'|'linux')
-		OS="linux"
+		OS="Linux"
 		;;
 
 	*)
