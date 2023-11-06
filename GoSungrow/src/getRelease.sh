@@ -14,7 +14,7 @@ function checkExit()
 function Get() {
 	# Get(url, repo, arch, tag)
 	wget -N "$1"
-	RETURN="$(jq -r --arg REPO "$2" --arg ARCH "$3" '.assets[] | select(.name|match($REPO + "-" + $ARCH + ".tar.gz$")) | '$4 latest)"
+	RETURN="$(jq -r --arg REPO "$2" --arg ARCH "$3" '.assets[] | select(.name|match($REPO + "_" + $ARCH + ".tar.gz$")) | '$4 latest)"
 }
 
 ################################################################################
