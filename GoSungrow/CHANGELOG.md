@@ -1,3 +1,7 @@
+## [3.0.8] - 2023-11-06
+### Fixes
+
+- Fixup totalDailyEnergy
 ## [3.0.7] - 2023-09-04
 ### Features
 
